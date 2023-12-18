@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Task 1</title>
+	<link rel="stylesheet" href="task1.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script src="https://raw.githack.com/aterrien/jQuery-Knob/master/dist/jquery.knob.min.js"></script>
+
+<script src="alertify.js"></script>
+<script src="alertify.min.js"></script>
+
+	<link rel="stylesheet" href="alertify/alertify.core.css" />
+	<link rel="stylesheet" href="alertify/alertify.default.css" />
+	<script src="alertify/alertify.min.js"></script>
+
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+	<div class="wrapper">
+		<h1><i><u>Онлайн-квест</u></i></h1>
+		<h2>Ребус</h2>
+		<article>
+			<p class="slideRules">Опис & правила ▼</p>
+			<div id="rules">
+				<p>
+					<ul style="list-style: none;">
+						<li>
+							<b>Ребус</b> - це головоломка, яка поєднує в собі використання ілюстрованих картинок з окремими літерами для зображення слів або фраз.
+						</li>
+						<br>
+						<li>
+							<b>Правила:</b>
+							<ul style="margin-left: 40px">
+								<li>Відгадайте 5 загадок</li>
+								<li>Відповівши на 5 головоломок, ви отримаєте доступ до наступного завдання</li>
+							</ul>
+						</li>
+					</ul>
+				</p>
+			</div>
+		</article>
+
+		<div class="taskProgress">
+			<p>Прогресс:</p>
+			<input type="text" value="0" class="progress">
+		</div>
+
+		<div class="img">
+			<img src="#" id="picture">
+		</div>
+		<div class="answer"> 
+			<input type="text" id="inputTask1" placeholder="Відповідь...">
+			<input type="button" value="Спробувати!" id="btnTask1">
+		</div>
+
+
+	</div>
+    <script src="script1.js"></script>
+</body>
+</html>

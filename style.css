@@ -1,0 +1,103 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", sans-serif;
+    }
+    img {
+    max-width: 80%;
+    }
+    .slider-container {
+    height: 80%;
+    width: 80%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    top: 100px;
+    left: 300px;
+    }
+    .menu {
+    position: absolute;
+    left: 0;
+    z-index: 900;
+    width: 80%;
+    bottom: 0;
+    }
+    .menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+    
+    }
+    .menu label:hover,.menu label:focus {
+    background: #67e9a8;
+    
+    }
+    .slide {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s 0.75s;
+    
+    }
+    [id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+    }
+    .slide-1 {
+    background-image: url("https://naurok.com.ua/uploads/files/1694/1882/1866_images/1.jpg");
+    }
+    .slide-2 {
+    background-image: url("https://naurok.com.ua/uploads/files/1694/1882/1866_images/2.jpg");
+    }
+    .slide-3 {
+    background-image: url("https://naurok.com.ua/uploads/files/1694/1882/1866_images/3.jpg");
+    }
+    .slide-4 {
+        background-image: url("https://naurok.com.ua/uploads/files/1694/1882/1866_images/4.jpg");
+        }
+        .slide-5 {
+        background-image: url("https://naurok.com.ua/uploads/files/1694/1882/1866_images/5.jpg");
+        }
+        .slide-6 {
+background-image: url("https://naurok.com.ua/uploads/files/1694/1882/1866_images/6.jpg");
+}
+.slide-7 {
+background-image: url("https://naurok.com.ua/uploads/files/1694/1882/1866_images/7.jpg");
+}
+.slide-8 {
+background-image: url("https://naurok.com.ua/uploads/files/1694/1882/1866_images/8.jpg");
+}
+.slide-9 {
+background-image: url("https://naurok.com.ua/uploads/files/1694/1882/1866_images/9.jpg");
+}
+.slide-10 {
+ background-image: url("https://naurok.com.ua/uploads/files/1694/1882/1866_images/10.jpg");
+}
+.slide-11 {
+background-image: url("https://naurok.com.ua/uploads/files/1694/1882/1866_images/11.jpg");
+}
+.slide-12 {
+background-image: url("https://naurok.com.ua/uploads/files/1694/1882/1866_images/12.jpg");
+}
+.slide-13 {
+background-image: url("https://naurok.com.ua/uploads/files/1694/1882/1866_images/13.jpg");
+}
+
+button {
+    position: relative;
+    top: 130px;
+    left: 870px;
+}
